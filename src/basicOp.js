@@ -11,10 +11,11 @@
  *
  * Examples:
  *
- * basicOp('+', 4, 7)     // return 11
- * basicOp('-', 15, 18)   // return -3
- * basicOp('*', 5, 5)     // return 25
- * basicOp('/', 49, 7)    // return 7
+ * basicOp('+', 4, 7)                     // return 11
+ * basicOp('-', 15, 18)                   // return -3
+ * basicOp('*', 5, 5)                     // return 25
+ * basicOp('/', 49, 7)                    // return 7
+ * basicOp('something else', 45, 45)      // return 0
  *
  * @param {string} operation
  * @param {number} value1

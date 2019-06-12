@@ -21,3 +21,8 @@ test('The minus operator should work', () => {
   expect(basicOp('-', 15, 18))
     .toBe(-3);
 });
+
+test('Should return 0 for non-math operations', () => {
+  expect(basicOp('hello', 1, 18))
+    .toBe(0);
+});
